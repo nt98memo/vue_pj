@@ -4,8 +4,7 @@
     <p>{{ message }}</p>
     <hr>
     <div>
-      <div><textarea v-model="fomula"
-        cols="40" rows="5"></textarea></div>
+      <div><textarea v-model="fomula" cols="40" rows="5"></textarea></div>
       <div><button v-on:click="doAction">CALC</button></div>
     </div>
   </div>
